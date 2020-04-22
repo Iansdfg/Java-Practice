@@ -16,6 +16,7 @@ public class Solution {
                 front++;
             }
             
+            
             if(front == s.length()){
                 return true;
             }
@@ -32,8 +33,11 @@ public class Solution {
             }
         }
         
+        
         return end <= front;
     }
+    
+    
     
     private boolean  isValid(char c){
         return Character.isLetter(c) || Character.isDigit(c);
