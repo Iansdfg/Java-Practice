@@ -32,12 +32,9 @@ public class Solution {
                 end--;
             }
         }
-        
-        
+           
         return end <= front;
     }
-    
-    
     
     private boolean  isValid(char c){
         return Character.isLetter(c) || Character.isDigit(c);
