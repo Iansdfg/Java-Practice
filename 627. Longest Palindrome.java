@@ -24,8 +24,6 @@ public class Solution {
     }
 }
 
-
-
 public class Solution {
     /**
      * @param s: a string which consists of lowercase or uppercase letters
@@ -65,7 +63,5 @@ public class Solution {
         }
         
         return oneTimeOddCount>0? 1+evenCount:evenCount;
-        
-        
     }
 }
